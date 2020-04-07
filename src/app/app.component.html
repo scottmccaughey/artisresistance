@@ -1,26 +1,32 @@
 <div class="content">
-  <img class="hidden-glitch" src="/assets/images/main.jpg" (load)="loaded()" />
-  <div class="glitch">
-    <div class="glitch__img"></div>
-    <div class="glitch__img"></div>
-    <div class="glitch__img"></div>
-    <div class="glitch__img"></div>
-    <div class="glitch__img"></div>
+  <div class="out" (click)="out()">
+    <img
+      class="hidden-glitch"
+      src="/assets/images/main.jpg"
+      (load)="loaded()"
+    />
+    <div class="glitch">
+      <div class="glitch__img"></div>
+      <div class="glitch__img"></div>
+      <div class="glitch__img"></div>
+      <div class="glitch__img"></div>
+      <div class="glitch__img"></div>
+    </div>
+    <div class="gradient"></div>
+    <div class="noise_wrapper">
+      <div class="noise"></div>
+    </div>
+    <h1 class="content__title">
+      <b></b>
+      <b></b>
+      <b></b>
+      <span>70 <i>D</i><i>a</i>ys</span>
+    </h1>
+    <h2 class="content__text">
+      Trump de<i>n<b>i</b></i
+      >ed. People d<b>i</b>ed.
+    </h2>
   </div>
-  <div class="gradient"></div>
-  <div class="noise_wrapper">
-    <div class="noise"></div>
-  </div>
-  <h1 class="content__title">
-    <b></b>
-    <b></b>
-    <b></b>
-    <span>70 <i>D</i><i>a</i>ys</span>
-  </h1>
-  <h2 class="content__text">
-    Trump de<i>n<b>i</b></i
-    >ed. People d<b>i</b>ed.
-  </h2>
   <div class="credits">
     <div class="art">
       Concept & Art by

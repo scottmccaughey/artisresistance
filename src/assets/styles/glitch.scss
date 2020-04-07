@@ -112,6 +112,10 @@ h2 {
   }
 }
 
+.out {
+  cursor: pointer;
+}
+
 .imgloaded .content__title,
 .imgloaded .content__text {
   animation-name: glitch-anim-text;

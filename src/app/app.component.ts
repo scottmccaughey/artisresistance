@@ -48,4 +48,9 @@ export class AppComponent implements OnInit {
     document.body.classList.remove("loading");
     document.body.classList.add("imgloaded");
   }
+
+  public out(): void {
+    window.location.href =
+      "https://twitter.com/rob_sheridan/status/1247205153914019846";
+  }
 }
