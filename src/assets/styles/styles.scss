@@ -1,0 +1,36 @@
+@import "fonts";
+@import "glitch";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 2em;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Big John", sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  margin: 0 -2rem;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
